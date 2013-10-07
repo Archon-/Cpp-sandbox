@@ -46,6 +46,7 @@ int main(int argc, char *argv[])
 //    obj.priv1 = 1; // can't access to private attribute
     obj.pub1 = 1;
     obj.pub2 = 1;
+    obj.pubMethod(1);
     
     system("PAUSE");
     return EXIT_SUCCESS;
