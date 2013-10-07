@@ -3,12 +3,6 @@
 
 using namespace std;
 
-int main(int argc, char *argv[])
-{
-    system("PAUSE");
-    return EXIT_SUCCESS;
-}
-
 class someClass
 {
     int priv1; // default private
@@ -31,3 +25,14 @@ class someClass
     protected:
         int chronione3, chronione4;
 };
+
+int main(int argc, char *argv[])
+{
+    someClass obj;
+//    obj.priv1 = 1; // can't access to private attribute
+    obj.pub1 = 1;
+    obj.pub2 = 1;
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
