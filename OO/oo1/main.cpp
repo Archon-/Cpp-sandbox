@@ -33,6 +33,13 @@ class someClass
         }    
 };
 
+class otherClass
+{
+    void otherMethod();      
+};
+
+void otherClass::otherMethod(){} // definition method outside of class
+
 int main(int argc, char *argv[])
 {
     someClass obj;
