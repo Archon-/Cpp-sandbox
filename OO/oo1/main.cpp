@@ -5,6 +5,8 @@ using namespace std;
 
 class someClass
 {
+    void privMethod();
+      
     int priv1; // default private
     
     public: // from now to down, public
@@ -24,6 +26,11 @@ class someClass
         
     protected:
         int chronione3, chronione4;
+        
+    public:
+        int pubMethod( int x ){
+            return 16 + x;
+        }    
 };
 
 int main(int argc, char *argv[])
