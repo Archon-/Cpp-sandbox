@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
     while(1){
         c = fgetc(fptr);
         if(c!= EOF){
-            //printf("%c", c);        // do what you need to.
+            printf("%c", c);        // do what you need to.
 	    //c = strtok(NULL, ";; AUTHORITY SECTION:");   
 	    //str[i] = c;
 	    //i++;     
